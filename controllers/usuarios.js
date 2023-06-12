@@ -75,8 +75,6 @@ const usuariosDelete = async(req, res = response) => {
 
     //Borrado logico
     const usuario = await  Usuario.findByIdAndUpdate(id, { estado: false });
-    
-
     res.json(usuario);
 }
 
