@@ -1,5 +1,4 @@
 const { response } = require("express");
-const role = require("../models/role");
 
 
 const esAdminRole = (req, res = response, next) => {
