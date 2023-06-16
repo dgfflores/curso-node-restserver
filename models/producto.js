@@ -31,7 +31,10 @@ const ProuctoSchema = Schema({
     disponible: {
         type: Boolean,
         default: true
-    }
+    },
+    img: {
+        type: String
+    },
 });
 
 ProuctoSchema.methods.toJSON = function(){
